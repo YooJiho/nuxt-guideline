@@ -24,6 +24,13 @@ export default defineNuxtConfig({
    */
   vite: {},
 
+  /**
+   * Server Engine
+   */
+  nitro: {},
+
+  plugins: ['~/plugins/page-hook'],
+
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true }
 })
